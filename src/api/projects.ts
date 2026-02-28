@@ -9,8 +9,8 @@ let projects: Project[] = [
     technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
     githubUrl: 'https://github.com/example/ecommerce',
     liveUrl: 'https://ecommerce.example.com',
-    createdAt: new Date('2024-01-15').toISOString(),
-    updatedAt: new Date('2024-01-15').toISOString(),
+    createdAt: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString(),
+    updatedAt: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString(),
   },
   {
     id: uuidv4(),
@@ -19,8 +19,8 @@ let projects: Project[] = [
     technologies: ['React', 'TypeScript', 'Vite', 'MUI'],
     githubUrl: 'https://github.com/example/portfolio',
     liveUrl: 'https://portfolio.example.com',
-    createdAt: new Date('2024-02-10').toISOString(),
-    updatedAt: new Date('2024-02-10').toISOString(),
+    createdAt: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString(),
+    updatedAt: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString(),
   },
   {
     id: uuidv4(),
@@ -28,8 +28,8 @@ let projects: Project[] = [
     description: 'A kanban-style task management application with drag-and-drop support.',
     technologies: ['React', 'Redux', 'Firebase', 'DnD Kit'],
     githubUrl: 'https://github.com/example/taskmanager',
-    createdAt: new Date('2024-03-05').toISOString(),
-    updatedAt: new Date('2024-03-05').toISOString(),
+    createdAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
+    updatedAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
   },
 ];
 
